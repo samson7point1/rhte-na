@@ -1,0 +1,8 @@
+---
+- name: Install VIM
+  hosts: all
+  tasks:
+  - name: Install VIM
+    yum:
+      name: vim-enhanced
+      state: installed
